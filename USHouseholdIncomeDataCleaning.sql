@@ -75,7 +75,7 @@ SET Type = 'Borough'
 WHERE Type = 'Boroughs'
 ;
 
-SELECT ALand, AWater
+SELECT DISTINCT AWater
 FROM USHouseholdIncome
 WHERE AWater = 0 OR AWater = '' OR AWater IS NULL
 ;
